@@ -33,22 +33,25 @@
     color: #FD3B3B;
 }
 
-.Nav-element>a {
-    height: 21px;
+#Contact-nav {
+  height: 21px;
 
-    color: #FD3B3B;
-    padding-right: 16px;
-    margin-top: 10px;
-    margin-right: 16px;
+  color: #FD3B3B;
+  background: none;
+  
+  padding-right: 16px;
+  margin-top: 10px;
+  margin-right: 16px;
 
-    border-right: 1px black solid;
-    transition: 0.6s ease-in;
+  border: none;
+  border-right: 1px black solid;
+  transition: 0.6s ease-in;
 }
 
 #Contact-nav:hover {
     color: black;
     transition: 1s ease-in-out;
-    
+    cursor: pointer;
 }
 
 .Sign-up-btn {

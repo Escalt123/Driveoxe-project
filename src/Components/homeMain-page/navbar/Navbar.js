@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Popup from "../../Contact-Popup/PopupComp.js";
+import Popup from "../../utils/Contact-Popup/PopupComp.js";
 
 import "./style.css";
 import logo from "./Drivoxe.svg";
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </li>
 
                 <li className="Nav-element">
-                    <a onClick={() => setIsPopupOpen(true)} href="/#" id="Contact-nav">Contact</a>
+                    <button onClick={() => setIsPopupOpen(true)} id="Contact-nav">Contact</button>
 
                     <Popup show={isPopupOpen} onClose={() => setIsPopupOpen(false)}>
                         <h3 className="title-Popup">For your Queries, We have our 24x7 customer service.</h3>
@@ -60,7 +60,6 @@ const Navbar = () => {
                             For Sales Queries : <br/>
                             <div className="Popup-Postal-adress">sales@lorem.net</div>
                         </p>
-
                     </Popup>
 
                     <button className="Sign-up-btn">Sign up</button>

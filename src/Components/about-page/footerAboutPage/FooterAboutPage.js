@@ -74,10 +74,6 @@ const FooterAboutPage = () => {
                   </ul>
 
                 </div>
-
-                <div className="smallFooter-text">
-                  Copyright © 2023 GoCar. All rights reserved.<button></button>
-                </div>
                 
               </div>
 

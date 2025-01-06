@@ -1,0 +1,57 @@
+.popup-overlay {
+
+  /* Это свойство делает элемент фиксированным 
+  относительно окна браузера, а не относительно родительского элемента. */
+  position: fixed;
+
+  /* Позиционирует элемент в левый верхний угол окна */
+  top: 0;
+  left: 0;
+
+  /* Устанавливает размер равный полному размеру окна браузера */
+  width: 100%;
+  height: 100%;
+
+  /* Устанавливает полупрозрачный фон */
+  background-color: rgba(0, 0, 0, 0.5);
+
+  /* Эти стили устанавливают вертикальное и горизонтальное 
+  позиционирование для элементов внутри контейнера */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Управляет порядком наложения элементов */
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #fdfdfd;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 33%;
+  height: 30%;
+}
+
+.close-Popup-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 22px;
+  height: 18px;
+}
+
+.close-Popup-btn-img {
+  width: 20px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.close-Popup-btn:hover .close-Popup-btn-img {
+  scale: 1.2;
+}
