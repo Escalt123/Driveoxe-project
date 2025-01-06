@@ -12,14 +12,44 @@
 /* ----- */
 
 .PickTheCar-redUpper-cont {
+
+    height: 50px;
+    width: 218px;
+
+    cursor: pointer;
+
+    transition: 0.6s ease-in-out;
+}
+
+.PickTheCar-link-cont {
     display: flex;
+}
+
+
+.PickTheCar-redUpper-cont:hover .PickTheCar-btn{
+    scale: 1.1;
+}
+
+.PickTheCar-redUpper-cont:hover .PickTheCar-redUpper-text{
+    color: #FD3B3B;
+}
+
+.PickTheCar-btn {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50px;
+    border: none;
+
+    background-color: #FD3B3B;
+    cursor: pointer;
+
+    transition: 0.5s ease-in-out;
 }
 
 .PickTheCar-redUpper {
     width: 50px;
     height: 50px;
-    border-radius: 50px;
-    background: url(./Arrow1.png) no-repeat rgba(253, 59, 59, 1) center;
 }
 
 .PickTheCar-redUpper-text {
@@ -29,6 +59,7 @@
 
     margin-top: 13px;
     margin-left: 12px;
+    transition: 0.3s ease-in-out;
 }
 
 /* ----- */

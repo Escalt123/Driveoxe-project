@@ -1,15 +1,24 @@
 import "./style.css";
 
 import carImg from "./car.png";
+import ArrowBtn from "./Arrow1.png";
 
 const PickTheCar = () => {
     return (
       <div className="PickTheCar-holder">
+
         <div className="PickTheCar-cont">
           <div className="PickTheCar-redUpper-cont">
-            <div className="PickTheCar-redUpper"></div>
 
-            <div className="PickTheCar-redUpper-text">PICK THE CAR!</div>
+            <a className="PickTheCar-link-cont" href="/Cars">
+              <button className="PickTheCar-btn">
+                  <img src={ArrowBtn} alt="" />
+              </button>
+
+              <div className="PickTheCar-redUpper-text">
+                PICK THE CAR!
+              </div>
+            </a>
           </div>
 
           <img src={carImg} className="carImg" alt="carImg" />
