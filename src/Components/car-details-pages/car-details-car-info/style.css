@@ -1,0 +1,200 @@
+.CarDetailsCarInfo-hold {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    width: 1340px;
+    height: fit-content;
+}
+
+.CarDetailsCarInfo-cont {
+    width: 1340px;
+    height: 815px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CarDetailsCarInfo-topImg {
+    width: 774px;
+    height: 549px;
+}
+
+.CarDetailsCarInfo-bottomImages {
+    width: 774px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 26px;
+}
+
+.CarDetailsCarInfo-bottomImages>li>img {
+    height: 240px;
+}
+
+.CarDetailsCarInfo-desc {
+    width: fit-content;
+}
+
+.CarDetailsCarInfo-Title {
+    width: 519px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    color: #222222;
+}
+
+.CarDetailsCarInfo-Price-cont {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 24px;
+}
+
+.CarDetailsCarInfo-Price {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57.6px;
+    padding-top: 2px;
+
+}
+
+.CarDetailsCarInfo-text {
+    width: 519px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 60%;
+    margin-top: 24px;
+}
+
+.CarDetailsCarInfo-BookNow-cont {
+    width: 320px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 48px;
+}
+
+.CarDetailsCarInfo-BookNow-counter {
+    width: 145px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CarDetailsCarInfo-BookNow-counter>button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #222222;
+    border-radius: 40px;
+    background: url('./minus.svg') no-repeat center;
+    margin-top: 13px;
+}
+
+.CarDetailsCarInfo-BookNow-counter>button:hover {
+    scale: 1.1;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+#CarDetailsCarInfo-plus {
+    background: url('./plus.svg') no-repeat center;
+}
+
+.CarDetailsCarInfo-BookNow-counter>p {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57.6px;
+}
+
+.CarDetailsCarInfo-BookNow-btn {
+    margin-top: 9px;
+}
+
+.CarDetailsCarInfo-BookNow-btn>button {
+    width: 143px;
+    height: 40px;
+    border: none;
+    border-radius: 32px;
+    background-color: #FD3B3B;
+
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+}
+
+.CarDetailsCarInfo-BookNow-btn>button:hover {
+    scale: 1.1;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.CarDetailsCarInfo-Specifications-cont {
+    width: fit-content;
+}
+
+.CarDetailsCarInfo-Specifications-cont>p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+
+    margin-top: 48px;
+}
+
+.CarDetailsCarInfo-Specifications-list {
+    list-style: none;
+    
+    display: grid;
+    grid-template-columns: 134px 146px;
+    row-gap: 12px;
+    column-gap: 40px;
+
+    margin-top: 20px;
+}
+
+.CarDetailsCarInfo-Specifications-list>li {
+    height: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+}
+
+.CarDetailsCarInfo-Specifications-list>li>img {
+    margin-right: 12px;
+}
+
+.CarDetailsCarInfo-Color-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 112px;
+
+    margin-top: 20px;
+}
+
+.CarDetailsCarInfo-Color-list>li {
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 24px;
+}
+
+#Color-Car-red {
+    background-color: #FD3B3B;
+}
+
+#Color-Car-black {
+    background-color: #222222;
+}
+
+#Color-Car-white {
+    background-color: #F8F8F8;
+    border: 1px solid #222222;
+}

@@ -1,0 +1,89 @@
+.card-item {
+    width: 280px;
+    background-color: rgba(34, 34, 34, 0.03);
+    border-radius: 10px;
+    min-height: 406px;
+    transition: 0.5s ease-in-out;
+}
+
+.card-item>img {
+    margin: 12px 12px 32px 12px;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 12px;
+    min-height: 58px;
+    min-width: 161px;
+    white-space: pre-wrap;
+}
+
+.card-price {
+    width: 256px;
+    height: 53px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 23px 12px 24px 12px;
+}
+
+.small-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    opacity: 50%;
+}
+
+.price-per-day {
+    width: 98px;
+    height: 29px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.rent-btn {
+    width: 95px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    background-color: rgba(253, 59, 59, 1);
+    border: none;
+    border-radius: 32px;
+    color: white;
+
+    margin-top: 13px;
+    margin-left: 65px;
+    transition: 0.4s ease-in-out;
+}
+
+.card-item:hover {
+    background-color: #FD3B3B;
+
+}
+
+.card-item:hover .rent-btn {
+    background-color: white;
+    color: #FD3B3B;
+
+}
+
+.rent-btn:hover {
+    cursor: pointer;
+    scale: 1.1;
+
+    border-radius: 0px;
+    background-color: white; 
+    color: #FD3B3B;
+}
+
+.page-btn>button:hover {
+    cursor: pointer;
+    scale: 1.2;
+    transition: 1s ease-in-out;
+}

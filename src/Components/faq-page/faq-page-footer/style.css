@@ -1,0 +1,53 @@
+.FaqFooter-hold {
+    margin-top: 100px;
+}
+
+.FaqFooter-cont {
+    padding-bottom: 56px;
+}
+
+.FaqFooter-BackgroundCar {
+    background: url('./carFAQFooter.png') no-repeat;
+    background-size: contain;
+    width: 1340px;
+    height: 399px;
+}
+
+.FaqFooter-Title-cont {
+    padding-top: 76px;
+    padding-left: 100px;
+}
+
+.FaqFooter-BigTitle {
+    width: 363px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+}
+
+.FaqFooter-SmallTitle {
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.FaqFooter-btn {
+    margin-top: 24px;
+    width: 152px;
+    height: 40px;
+    background-color: #FD3B3B;
+    border: none;
+    border-radius: 32px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+}
+
+.FaqFooter-btn:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 1s ease-in-out;
+}

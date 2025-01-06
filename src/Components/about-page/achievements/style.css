@@ -1,0 +1,77 @@
+.Achievements-holder {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Achievements-cont {
+    width: 1440px;
+    height: 495px;
+
+    display:flex;
+}
+
+.Achievements-AllTitle {
+    width: 614px;
+    height: 495px;
+    
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: #fff;
+
+    box-shadow: 14px 0px 0px 0px #F8F8F8;
+}
+
+.Achievements-smallTitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 127px;
+}
+
+.Achievements-bigTitle {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+
+    width: 400px;
+}
+
+.Achievements-desc {
+    background-color: #F8F8F8;
+}
+
+.Achievements-smallTitle, .Achievements-bigTitle {
+    margin-left: 144px;
+}
+
+.Achievements-desc-row {
+    list-style-type: none;
+    display: flex;
+    margin-left: 72px;
+
+}
+
+.Achievements-desc-row>li {
+    width: 130px;
+    height: fit-content;
+    margin-right: 30px;
+}
+
+#first-row {
+    margin-top: 101px;
+    margin-bottom: 40px;
+}
+
+.Achievements-desc-item>img {
+    width: 63px;
+    height: 63px;
+}
+
+.Achievements-desc-item>p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    margin-top: 16px;       
+}

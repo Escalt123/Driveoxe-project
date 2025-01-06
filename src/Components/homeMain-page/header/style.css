@@ -1,0 +1,242 @@
+.header-hold {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* ----------- */
+
+
+.header-BgImg {
+    width: 100%;
+    height: 111%;
+    margin-top: -150px;
+    position: absolute;
+    pointer-events: none;
+}
+
+/* ----------- */
+
+.header-cont {
+    margin-top: 72px;
+    width: 1340px;
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+/* ----- */
+
+.header-left-title {
+    font-family: Syne;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+}
+
+.left-text {
+    width: 320px;
+    margin-top: 56px;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    opacity: 60%;
+}
+
+.left-btn{
+    width: 154px;
+    height: 40px;
+    border-radius: 32px;
+    font-weight: 700;
+    background-color: #FD3B3B;
+    color: white;
+    border: none;
+    transition: 1s ease-in;
+    margin-top: 56px;
+}
+
+.left-btn:hover, .learn-cont:hover {
+    cursor: pointer;
+    scale: 1.1;
+    border-radius: 0px;
+}
+
+.right-other-btn:hover {
+    cursor: pointer;
+    scale: 1.05;
+    color: black;
+    border-color: black;
+}
+
+.left-logos {
+    display: flex;
+    gap: 16px;
+
+    width: fit-content;
+    height: 24px;
+
+    margin-top: 100px;
+}
+
+/* ---- */
+
+.center-card {
+    width: 142px;
+    height: 158px;
+
+    margin-top: 74px;
+    margin-left: 300px;
+
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+    backdrop-filter: blur(10px);
+    border: 1px solid #FFFFFF99;
+    
+
+    border-image-slice: 1;
+    border-radius: 20px; 
+
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.center-numb {
+    width: 82px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    color: rgba(34, 34, 34, 1);
+
+    margin: 30px 30px 8px 30px;
+}
+
+.center-text {
+    font-family: Syne;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+}
+
+.center-dot{
+    margin-top: 10px;
+    margin-left: -10px;
+    position: absolute;
+}
+
+/* ---------- */
+
+.right-column {
+    max-width: 204px;
+    margin-right: 50px;
+    margin-bottom: 58px;
+}
+
+.right-text-cont {
+    min-height: 212px;
+    margin-top: 74px;
+}
+
+.right-text {
+    margin-top: 32px;
+    font-size: 14px;
+    width: 164px;
+
+}
+
+.right-text-title {
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.right-text-desc {
+    margin-top: 16px;
+    line-height: 16.8px;
+    opacity: 60%;
+}
+
+.right-other-func {
+    margin-top: 130px;
+    min-height: 184px;
+    gap: 8px;
+
+}
+
+.right-other-btn {
+    height: 40px;
+    border-radius: 32px;
+
+    font-weight: 600;
+    background: none;
+    color: rgba(253, 59, 59, 1);
+    border: 1px solid rgba(253, 59, 59, 1);
+    padding: 10px 26px;
+    transition: 0.8s ease-in;
+}
+
+#Rent {
+    margin-right: 8px;
+}
+
+#Consult {
+    margin-left: 8px;
+    margin-top: 12px;
+}
+
+.learn-cont {
+    margin-top: 40px;
+    display: flex;
+    gap: 32px;
+    font-weight: 600;
+    transition: 1s ease-in;
+}
+
+.scrollTop-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.scrollTop-btn {
+    margin-top: 60px;
+    margin-right: 5px;
+    width: 36px;
+    height: 36px;
+
+    top: 84%;
+
+    position: fixed;
+
+    border: none;
+    border-radius: 50px;
+    background: url("./ArrowUp.svg") no-repeat center rgba(253, 59, 59, 1);
+    transition: ease-in-out 0.6s;
+}
+
+.scrollTop-btn:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/* ------ */
+
+
+@media screen and (min-width: 1440px) {
+    .scrollTop-btn {
+        top: 85%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .scrollTop-btn {
+        top: 89%;
+    }
+}

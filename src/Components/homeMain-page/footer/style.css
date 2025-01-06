@@ -1,0 +1,181 @@
+.footer-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 56px;
+}
+
+/* .footer-cont {
+} */
+
+.readyToGo-cont {
+    width: 1340px;
+    height: 399px;
+    background: url("./footerCar.png");
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.readyToGo-text {
+    width: 418px;
+    margin-top: 80px;
+    margin-right: 193px;
+}
+
+.readyToGo-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.readyToGo-desc {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+}
+
+.readyToGo-download {
+    margin-top: 32px;
+}
+
+.readyToGo-googlePlay {
+ margin-left: 16px;
+ transition: ease-in-out 0.6s;
+}
+
+.readyToGo-appStore {
+    transition: ease-in-out 0.6s;
+}
+
+.readyToGo-googlePlay:hover, .readyToGo-appStore:hover {
+    cursor: pointer;
+    scale: 1.05;
+}
+
+
+/* -------- */
+
+.links-wrap {
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .subscribe-cont {
+
+} */
+
+.subscribe-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+}
+
+.subscribe-desc {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+
+    margin-top: 16px;
+}
+
+.email-input {
+    margin-top: 56px;
+    width: 547px;
+    height: 56px;
+    border: 1px solid rgba(34, 34, 34, 1);
+    border-radius: 50px;
+    background: url("./Arrow.svg") no-repeat 483px;
+    transition: ease-in-out 0.6s;
+}
+
+.email-input::placeholder {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    opacity: 60%;
+    padding-left: 32px;
+}
+
+.email-input:hover {
+    cursor: text;
+    transition: 0.5s ease-in-out;
+    background-color: rgba(197, 197, 197, 0.384);
+}
+
+.links-list {
+    height: 216px;
+    margin-top: 3px;
+}
+
+.links-cont {
+    display: flex;
+    gap: 40px;
+    width: 507px;
+    margin-right: 76px;
+}
+
+.Link-column {
+    list-style-type: none;
+}
+
+.Link-column .Link-item:first-child {
+    margin-top: 0px;
+    margin-bottom: 19px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.Link-column .Link-item:first-child:hover {
+    cursor: unset;
+    color: unset;
+}
+
+.Link-item {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    transition: 0.5s ease-in-out;
+}
+
+.Link-item>a {
+    transition: 0.5s ease-in-out;
+}
+
+.Link-item>a:hover {
+    cursor: pointer;
+    color: rgba(253, 59, 59, 1);
+}
+
+.smallFooter-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-top: 56px;
+}
+
+.smallFooter-text>button {
+    margin-left: 261px;
+    width: 36px;
+    height: 36px;
+
+    position: sticky;
+    top: 0;
+
+    border: none;
+    border-radius: 50px;
+    background: url("./ArrowUp.svg") no-repeat center rgba(253, 59, 59, 1);
+    transition: ease-in-out 0.6s;
+}
+
+.smallFooter-text>button:hover {
+    cursor: pointer;
+    scale: 1.2;
+}

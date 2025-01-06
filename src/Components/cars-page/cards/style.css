@@ -1,0 +1,202 @@
+.CarsCards-holder {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.CarsCards-cont {
+    width: 1340px;
+
+}
+
+.CarsCards-topRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CarsCards-Sorting {
+    display: flex;
+    justify-content: space-between;
+    width: 143px;
+    height: 37px;
+    background-color: #F8F8F8;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #222222;
+
+    margin-left: 510px;
+}
+
+.CarsCards-Sorting:hover, .CarsCards-Searching:hover {
+    background-color: #e9e9e9;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.CarsCards-Sorting-text {
+    margin-left: 10px;
+    margin-top: 10px;
+    opacity: 60%;
+}
+
+.CarsCards-Sorting>img {
+    width: 11px;
+    height: 11px;
+    
+    margin-top: 13px;
+    margin-right: 10px;
+
+}
+
+.CarsCards-ShowingResults {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 60%;
+}
+
+.CarsCards-Searching {
+    width: 320px;
+    height: 37px;
+    background-color: #F8F8F8;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.CarsCards-Searching-text {
+    padding-top: 10px;
+    padding-left: 20px;
+    opacity: 60%;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+.CarsCards-Searching>img {
+    width: 14px;
+    height: 14px;
+
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+/* ---------- */
+
+.CarsCards-catalog-cont {
+    margin-top: 32px;
+    height: 1366px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-list-cars-page {
+    width: 936px;
+    gap: 48px;
+    margin-left: 0px;
+}
+
+.CarsCards-tags-cont {
+    width: 291px;
+    height: 903px;
+    margin-right: 29px;
+
+}
+
+.CarsCards-tags-cont>p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    opacity: 60%;
+    margin-bottom: 24px;
+}
+
+.Popular-car-column {
+  
+}
+
+.CarsCards-tags-categories-cont {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.CATEGORIES {
+    margin-top: 53px;
+}
+
+.Categories-column {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+}
+
+.Categories-column>li {
+    margin-bottom: 16px;
+}
+
+.Categories-column>li:last-child {
+    margin-bottom: 0px;
+}
+
+.TAGS-cont {
+    width: 320px;
+}
+
+.TAGS-links {
+    height: 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    gap: 16px;
+}
+
+.TAGS-bottom-row {
+    margin-top: 16px;
+}
+
+
+.Cards-flipping-cont {
+    width: 936px;
+    margin-top: 48px;
+}
+
+.Cards-flipping-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.Cards-flipping-list>li {
+    margin-right: 48px;
+}
+
+.Cards-flipping-list>li:hover {
+    transition: 1s ease-in-out;
+    color: #FD3B3B;
+    cursor: pointer;
+}
+
+.Cards-flipping-list>li>img:hover {
+    transition: 0.5s ease-in-out;
+    scale: 1.3;
+}
+
+.flipping-number {
+    opacity: 60%;
+}
+
+.Cards-flipping-list>li>img {
+    margin-top: 3px;
+}
+
+.Cards-flipping-ArrowRight {
+    transform: scaleX(-1);
+}

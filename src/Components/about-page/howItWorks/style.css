@@ -1,0 +1,203 @@
+.HowItWorksAboutPage-holder {
+    display: flex;
+    justify-content: center;
+    background: url("./bagroundPink.svg") no-repeat center;
+
+
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+
+.HowItWorksAboutPage-cont {
+    background: url("./bagroundDriveoxe.svg") no-repeat center;
+    background-position-y: 52%;
+    height: max-content;
+}
+
+.HowItWorksAboutPage-small-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
+.HowItWorksAboutPage-Big-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: center;
+}
+
+/* -------------- */
+
+.HowItWorksAboutPage-desc-row {
+    width: 1259px;
+    margin-top: 100px;
+    display: flex;
+    gap: 221px;
+}
+
+.HowItWorksAboutPage-select-cont {
+    display: flex;
+}
+
+.HowItWorksAboutPage-select-cont:hover .HowItWorksAboutPage-select-block {
+    background-color: #FD3B3B;
+    transition: 1s ease-in-out;
+}
+
+.HowItWorksAboutPage-select-block {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background: url("./finger.svg") no-repeat center #fff;
+    box-shadow: 4px 4px 10px 0px #0000001A;
+}
+
+.HowItWorksAboutPage-select-text {
+    width: 196px;
+
+    margin-top: 20px;
+    margin-left: 32px;
+
+}
+
+.HowItWorksAboutPage-select-text>p:first-child {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.HowItWorksAboutPage-select-text>p:last-child {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 60%;
+
+    margin-top: 32px;
+}
+
+
+.HowItWorksAboutPage-drive-cont {
+    display: flex;
+}
+
+.HowItWorksAboutPage-drive-cont:hover .HowItWorksAboutPage-drive-block {
+    background-color: #FD3B3B;
+    transition: 1s ease-in-out;
+}
+
+.HowItWorksAboutPage-drive-text {
+    width: 196px;
+
+    margin-top: 20px;
+    margin-right: 32px;
+    text-align: right;
+}
+
+.HowItWorksAboutPage-drive-text>p:first-child {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+.HowItWorksAboutPage-drive-text >p:last-child {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 60%;
+
+    margin-top: 32px;
+}
+
+.HowItWorksAboutPage-drive-block {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    background: url("./wheel.svg") no-repeat center #fff;
+    box-shadow: 4px 4px 10px 0px #0000001A;
+}
+
+
+/* ---------------- */
+
+.HowItWorksAboutPage-dot-row {
+    margin-top: 48px;
+    height: 40px;
+    display: flex;
+}
+
+.HowItWorksAboutPage-LineDashsedleft>img {
+    margin-top: 20px;
+}
+
+.circles-cont-no-margin-left {
+    margin-left: -40px;
+}
+
+/* --------- */
+
+#lastRow {
+    display: flex;
+    justify-content: flex-end;
+
+    padding-bottom: 100px;
+}
+
+.HowItWorksAboutPage-book-cont {
+    display: flex;
+}
+
+.HowItWorksAboutPage-book-cont:hover #book-img {
+    background-color: #FD3B3B;
+    transition: 1s ease-in-out;
+}
+
+.HowItWorksAboutPage-return-cont {
+    display: flex;
+}
+
+.HowItWorksAboutPage-return-cont:hover #return-img{
+    background-color: #FD3B3B;
+    transition: 1s ease-in-out;
+}
+
+.circles-cont {
+    width: 40px;
+    height: 200px;
+    margin-left: 40px;
+    background-position-y: bottom;
+    opacity: 85%;
+}
+
+.first-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #E3DEDE;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-circle{
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+
+    background-color: #BAB6B6;
+    opacity: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+
+    background-color: #918D8D;
+}

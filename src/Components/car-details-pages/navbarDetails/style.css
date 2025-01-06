@@ -1,0 +1,66 @@
+.NavbarDetails-list {
+    list-style-type: none;
+    padding-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.LogoDetails-img {
+    padding-top: 10px;
+}
+
+.NavDetails-center-element {
+    padding-top: 15px;
+    width: 369px;
+    line-height: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.NavDetails-center-element>a {
+    margin-right: 64px;
+    border-radius: 5px;
+    color: white;
+}
+
+.NavDetails-center-element>a:hover {
+    transition: 1s;
+    color: #FD3B3B;
+}
+
+.NavDetails-element>a {
+    height: 21px;
+
+    color: #FD3B3B;
+    padding-right: 16px;
+    margin-top: 10px;
+    margin-right: 16px;
+
+    border-right: 1px black solid;
+}
+
+#Contact-navDetails:hover {
+    color: black;
+    transition: 1s ease-in-out;
+    
+}
+
+.Sign-up-btn-Details {
+    width: 116px;
+    height: 40px;
+    border-radius: 32px;
+
+    font-weight: 700;
+    background-color: #3b78fd;
+    color: white;
+    border: none;
+}
+
+.Sign-up-btn-Details:hover {
+    scale: 1.1;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    border-radius: 0px;
+}

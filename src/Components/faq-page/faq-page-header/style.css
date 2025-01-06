@@ -1,0 +1,23 @@
+.FaqHeader-holder {
+
+}
+
+.FaqHeader-title {
+    margin-top: 56px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
+.FaqHeader-title-big {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    margin-top: 22px;
+}
+
+.FaqHeader-СarDashboard {
+    margin-left: -50px;
+    margin-top: 56px;
+}

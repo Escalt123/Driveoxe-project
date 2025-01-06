@@ -1,0 +1,223 @@
+.hovItWorks-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hovItWorks-cont {
+    margin-top: 100px;
+    width: 1340px;
+    background: url("./bgDriveoxe.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.hovItWorks-smallTitle, .hovItWorks-bigTitle {
+    text-align: center;
+}
+
+.hovItWorks-smallTitle {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.hovItWorks-bigTitle {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    margin-top: 16px;
+}
+
+/* ----- */
+
+.simple-steps-cont-inside {
+    margin-top: 100px;
+    width: 1340px;
+    height: 750px;
+}
+
+.left-row {
+    display: flex;
+    justify-content: center;
+}
+
+.left-cont {
+    width: 876px;
+    height: 200px;
+    display: flex;
+}
+
+.left-cont:hover .circles-cont>.first-circle {
+    background-color: rgba(253, 59, 59, 0.15);
+} .left-cont:hover .circles-cont>.first-circle>.second-circle {
+    background-color: rgba(253, 59, 59, 0.3);
+} .left-cont:hover .circles-cont>.first-circle>.second-circle>.third-circle {
+    background-color: rgba(253, 59, 59, 0.6);
+} .left-cont:hover .left-img {
+    background-color: rgba(253, 59, 59, 5);
+} .left-cont:hover #drive-img {
+    background-color: rgba(253, 59, 59, 5);
+} 
+
+.right-cont:hover .circles-cont>.first-circle {
+    background-color: rgba(253, 59, 59, 0.15);
+} .right-cont:hover .circles-cont>.first-circle>.second-circle {
+    background-color: rgba(253, 59, 59, 0.3);
+} .right-cont:hover .circles-cont>.first-circle>.second-circle>.third-circle {
+    background-color: rgba(253, 59, 59, 0.6);
+} .right-cont:hover .left-img {
+    background-color: rgba(253, 59, 59, 5);
+} .right-cont:hover #book-img {
+    background-color: rgba(253, 59, 59, 5);
+} .right-cont:hover #return-img {
+    background-color: rgba(253, 59, 59, 5);
+}
+
+.left-desc {
+    width: 378px;
+    display: flex;
+}
+
+#third-row {
+    padding-top: 25px;
+}
+
+
+
+.left-simple-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    width: 196px;
+    margin-top: 20.5px;
+}
+
+.left-title {
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin-bottom: 32px;
+}
+
+.left-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.1);
+    background: url("./finger.png") no-repeat white;
+    background-position: center;
+    margin-left: 32px;
+    transition: ease-in-out 0.6s;
+
+}
+
+.circles-cont {
+    width: 40px;
+    height: 200px;
+    margin-left: 40px;
+    background: url("./LineDashsed.svg") no-repeat center;
+    background-position-y: bottom;
+    opacity: 85%;
+    transition: ease-in-out 0.6s;
+
+}
+
+.first-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #E3DEDE;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.6s;
+
+}
+
+.second-circle{
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+
+    background-color: #BAB6B6;
+    opacity: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.6s;
+
+}
+
+.third-circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+
+    background-color: #918D8D;
+    transition: ease-in-out 0.6s;
+
+}
+
+/* --------- */
+
+.right-cont>.left-img {
+    background-color: white;
+    margin-left: 40px;
+}
+
+.right-row {
+    display: flex;
+    justify-content: center;
+}
+
+.right-cont {
+    width: 876px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-desc {
+    width: 196px;
+    display: flex;
+    margin-left: 32px;
+}
+
+.right-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    width: 196px;
+    margin-top: 8.5px;
+}
+
+.right-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin-bottom: 32px;
+}
+
+/* -------- */
+
+#last-circle-cont {
+    background: none;
+}
+
+#book-img {
+    background: url("./book.png") no-repeat white center;
+}
+
+#drive-img {
+    background: url("./drive.png") no-repeat white center;
+}
+
+#return-img {
+    background: url("./return.png") no-repeat white center;
+}

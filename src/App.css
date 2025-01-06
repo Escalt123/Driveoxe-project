@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Syne";
+    text-decoration: none;
+    color: black;
+}
+
+.bg-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    /* background-image: url("./img/background-car.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 15%; */
+
+    width: 1340px;
+}

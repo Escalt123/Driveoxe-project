@@ -1,0 +1,57 @@
+
+.FaqPageQuestions-cont {
+    margin-top: 100px;
+}
+
+.FaqPageQuestions-list {
+    display: grid;
+    grid-template-columns: 650px 650px;
+    column-gap: 40px;
+    row-gap: 80px;
+}
+
+.FaqPageQuestions-card {
+    height: fit-content;
+}
+
+.FaqPageQuestions-ItemTitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin-bottom: 40px;
+}
+
+.Questions-list {
+    list-style: none;
+    background-color: #F8F8F8;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 10px;
+    height: 64px;
+    margin-top: 10px;
+    transition: 0.7s ease-in-out;
+}
+
+.Questions-listItem-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Questions-listItem-text {
+    margin-top: -4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    visibility: hidden;
+    opacity: 0;
+    padding-bottom: 20px;
+    user-select: unset;
+    transition: 0.3s ease;
+}

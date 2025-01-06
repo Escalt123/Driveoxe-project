@@ -1,0 +1,58 @@
+.WhyChooseDrivoxe-holder {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 168px;
+}
+
+.WhyChooseDrivoxe-title {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+}
+
+.WhyChooseDrivoxe-descList {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    margin-top: 100px;
+    width: 1340px;
+}
+
+.WhyChooseDrivoxe-descItem {
+    width: 656px;
+    height: 262px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    outline: 1px solid #ffffff;
+}
+
+.WhyChooseDrivoxe-descItem:hover {
+    outline: 1px solid #FD3B3B;
+    background-color: #fff;
+    transition: 1s ease-in-out;
+}
+
+.WhyChooseDrivoxe-descItem-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    margin: 32px;
+    display: flex;
+}
+
+.WhyChooseDrivoxe-descItem-title-text {
+    align-self: center;
+    margin-left: 32px;
+}
+
+.WhyChooseDrivoxe-descItem-text {
+    width: 592px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 32px;
+}
+

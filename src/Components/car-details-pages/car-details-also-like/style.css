@@ -1,0 +1,94 @@
+.CarDetailsAlsoLike-holder {
+    margin-top: 100px;
+}
+
+.CarDetailsAlsoLike-cont {
+
+}
+
+
+
+.CarDetailsAlsoLike-title-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CarDetailsAlsoLike-title-cont>p {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57.6px;
+}
+
+.CarDetailsAlsoLike-title-btns {
+    width: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CarDetailsAlsoLike-title-btns>button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: url("./ArrowImg.svg") no-repeat center;
+    background-color: #222222;
+    border: none;
+    opacity: 20%;
+}
+
+.CarDetailsAlsoLike-title-btns>button:hover {
+    background-color: #FD3B3B;
+    opacity: unset;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+#btn-slide-right {
+    transform: rotate(-180deg);
+}
+
+/* ---------- */
+
+.CarDetailsAlsoLike-carList-cont {
+    margin-top: 56px;
+}
+
+.CarDetailsAlsoLike-carList-cont>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CarDetailsAlsoLike-carList-item {
+    width: 240px;
+    height: 279px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+
+.CarDetailsAlsoLike-carList-item:hover {
+    background-color: #FD3B3B;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px 0px #0000001A;
+}
+
+.CarDetailsAlsoLike-carList-item:hover p {
+    color: white;
+}
+
+.CarDetailsAlsoLike-carList-item>img {
+    margin: 12px 12px 20px 12px;
+}
+
+.CarDetailsAlsoLike-carList-item>p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    width: 215px;
+}
+
+#item-Price {
+    font-weight: 600;
+    margin-top: 10px;
+}
