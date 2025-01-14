@@ -10,8 +10,9 @@
 
 .HowItWorksAboutPage-cont {
     background: url("./bagroundDriveoxe.svg") no-repeat center;
-    background-position-y: 52%;
+    background-position-y: 58%;
     height: max-content;
+    width: 1259px;
 }
 
 .HowItWorksAboutPage-small-title {
@@ -28,176 +29,240 @@
     text-align: center;
 }
 
-/* -------------- */
-
-.HowItWorksAboutPage-desc-row {
-    width: 1259px;
-    margin-top: 100px;
+.HowItWorksAboutPage-top-row {
     display: flex;
+    justify-content: space-between;
     gap: 221px;
+    margin-top: 100px;
 }
 
 .HowItWorksAboutPage-select-cont {
     display: flex;
+    width: 378px;
+    border-radius: 50px;
 }
 
-.HowItWorksAboutPage-select-cont:hover .HowItWorksAboutPage-select-block {
-    background-color: #FD3B3B;
-    transition: 1s ease-in-out;
-}
-
-.HowItWorksAboutPage-select-block {
+.HowItWorksAboutPage-img-card {
     width: 150px;
     height: 150px;
+    background-color: #fff;
     border-radius: 50px;
-    background: url("./finger.svg") no-repeat center #fff;
-    box-shadow: 4px 4px 10px 0px #0000001A;
+    transition: 0.3s ease-in-out;
 }
 
-.HowItWorksAboutPage-select-text {
-    width: 196px;
+.HowItWorksAboutPage-img-card>img {
+    width: 64px;
+    margin-top: 43px;
+    margin-left: 43px;
+}
 
-    margin-top: 20px;
+.HowItWorksAboutPage-select-text, .HowItWorksAboutPage-book-text {
+    color: #222222;
+    margin-top: 15px;
     margin-left: 32px;
-
 }
 
-.HowItWorksAboutPage-select-text>p:first-child {
-    font-size: 24px;
+.HowItWorksAboutPage-select-title, .HowItWorksAboutPage-book-title {
     font-weight: 700;
-    line-height: 28.8px;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-.HowItWorksAboutPage-select-text>p:last-child {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    opacity: 60%;
-
+.HowItWorksAboutPage-select-desc, .HowItWorksAboutPage-book-desc {
     margin-top: 32px;
+    width: 196px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 80%;
 }
 
+.mystery-circle-topRow {
+    position: absolute;
+    margin-top: 87px;
+    margin-left: 13px;
+
+    transition: 0.6s ease-in-out;
+}
 
 .HowItWorksAboutPage-drive-cont {
+    margin-right: 282px;
     display: flex;
+    width: 378px;
+    border-radius: 50px;
 }
 
-.HowItWorksAboutPage-drive-cont:hover .HowItWorksAboutPage-drive-block {
-    background-color: #FD3B3B;
-    transition: 1s ease-in-out;
-}
-
-.HowItWorksAboutPage-drive-text {
-    width: 196px;
-
+.HowItWorksAboutPage-drive-text, .HowItWorksAboutPage-return-text {
     margin-top: 20px;
     margin-right: 32px;
+    color: #222222;
     text-align: right;
 }
 
-.HowItWorksAboutPage-drive-text>p:first-child {
-    font-size: 24px;
+.HowItWorksAboutPage-drive-title, .HowItWorksAboutPage-return-title {
     font-weight: 700;
-    line-height: 28.8px;
+    font-size: 24px;
+    line-height: 29px;
 }
 
-.HowItWorksAboutPage-drive-text >p:last-child {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    opacity: 60%;
-
+.HowItWorksAboutPage-drive-desc, .HowItWorksAboutPage-return-desc {
     margin-top: 32px;
+    width: 196px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 80%;
 }
 
-.HowItWorksAboutPage-drive-block {
-    width: 150px;
-    height: 150px;
-    border-radius: 50px;
-    background: url("./wheel.svg") no-repeat center #fff;
-    box-shadow: 4px 4px 10px 0px #0000001A;
-}
-
-
-/* ---------------- */
-
-.HowItWorksAboutPage-dot-row {
+.HowItWorksAboutPage-midlle-row {
     margin-top: 48px;
+    width: 1259px;
     height: 40px;
+}
+
+.circles-cont-about {
+    width: 40px;
+    margin-left: 40px;
+    background-position-y: bottom;
+    transition: ease-in-out 0.6s;
+}
+
+.dashed-line-cont {
+    margin-left: 55px;
+}
+
+.LineDashsed {
+    margin-top: 53px;
+}
+
+.selectLine {
+    margin-left: 92px;
+}
+
+.BookLine {
+    padding-left: 37px;
+}
+
+.DriveLine {
+    margin-top: 14px;
+    position: absolute;
+}
+
+.ReturnLine {
+    margin-left: 290px;
+}
+
+.HowItWorksAboutPage-bottom-row {
+    margin-top: 68px;
+    margin-bottom: 100px;
     display: flex;
-}
-
-.HowItWorksAboutPage-LineDashsedleft>img {
-    margin-top: 20px;
-}
-
-.circles-cont-no-margin-left {
-    margin-left: -40px;
-}
-
-/* --------- */
-
-#lastRow {
-    display: flex;
-    justify-content: flex-end;
-
-    padding-bottom: 100px;
+    justify-content: space-between;
 }
 
 .HowItWorksAboutPage-book-cont {
+    margin-left: 290px;
     display: flex;
+    border-radius: 50px;
+
 }
 
-.HowItWorksAboutPage-book-cont:hover #book-img {
-    background-color: #FD3B3B;
-    transition: 1s ease-in-out;
+.mystery-circle-bottomRow {
+    position: absolute;
+    margin-top: -92px;
+    margin-left: 13px;
+
+    transition: 0.6s ease-in-out;
 }
 
 .HowItWorksAboutPage-return-cont {
     display: flex;
+    width: 378px;
+    border-radius: 50px;
 }
 
-.HowItWorksAboutPage-return-cont:hover #return-img{
-    background-color: #FD3B3B;
-    transition: 1s ease-in-out;
+/* 
+болванка для точек под карточками
+*/
+
+.mystery-circle-bottomRow-return {
+    position: absolute;
+    margin-left: 23px;
+    margin-top: -205px;
+
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease-in-out;
 }
 
-.circles-cont {
-    width: 40px;
-    height: 200px;
-    margin-left: 40px;
-    background-position-y: bottom;
-    opacity: 85%;
+/* 
+hover для карточек
+*/
+
+.HowItWorksAboutPage-select-cont:hover .HowItWorksAboutPage-img-card,
+.HowItWorksAboutPage-drive-cont:hover .HowItWorksAboutPage-img-card,
+.HowItWorksAboutPage-book-cont:hover .HowItWorksAboutPage-img-card,
+.HowItWorksAboutPage-return-cont:hover .HowItWorksAboutPage-img-card {
+    background-color: #ee8181;
 }
 
-.first-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
-    background-color: #E3DEDE;
+/* 
+hover для точек  
+*/
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* 
+hover для колец на верхней строке карточек  
+*/
+
+.HowItWorksAboutPage-select-cont:hover 
+.mystery-circle-topRow>.circles-cont-about>.first-circle,
+.HowItWorksAboutPage-drive-cont:hover 
+.mystery-circle-topRow>.circles-cont-about>.first-circle
+{
+    background-color: #FECFCF;
+    opacity: 0.8;
 }
 
-.second-circle{
-    width: 28px;
-    height: 28px;
-    border-radius: 28px;
-
-    background-color: #BAB6B6;
-    opacity: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.HowItWorksAboutPage-select-cont:hover 
+.mystery-circle-topRow>.circles-cont-about>.first-circle>.second-circle,
+.HowItWorksAboutPage-drive-cont:hover 
+.mystery-circle-topRow>.circles-cont-about>.first-circle>.second-circle
+{
+    background-color: #FDB5B5;
 }
 
-.third-circle{
-    width: 12px;
-    height: 12px;
-    border-radius: 12px;
+.HowItWorksAboutPage-select-cont:hover 
+.mystery-circle-topRow>.circles-cont-about>.first-circle>.second-circle>.third-circle,
+.HowItWorksAboutPage-drive-cont:hover 
+.mystery-circle-topRow>.circles-cont-about>.first-circle>.second-circle>.third-circle
+{
+    background-color: #FC9494;
+}
 
-    background-color: #918D8D;
+/* 
+hover для колец на нижней строке карточек  
+*/
+
+.HowItWorksAboutPage-book-cont:hover 
+.mystery-circle-bottomRow>.circles-cont-about>.first-circle,
+.HowItWorksAboutPage-return-cont:hover 
+.mystery-circle-bottomRow-return>.circles-cont-about>.first-circle
+{
+    background-color: #FECFCF;
+    opacity: 0.8;
+}
+
+.HowItWorksAboutPage-book-cont:hover 
+.mystery-circle-bottomRow>.circles-cont-about>.first-circle>.second-circle,
+.HowItWorksAboutPage-return-cont:hover 
+.mystery-circle-bottomRow-return>.circles-cont-about>.first-circle>.second-circle
+{
+    background-color: #FDB5B5;
+}
+
+.HowItWorksAboutPage-book-cont:hover 
+.mystery-circle-bottomRow>.circles-cont-about>.first-circle>.second-circle>.third-circle,
+.HowItWorksAboutPage-return-cont:hover 
+.mystery-circle-bottomRow-return>.circles-cont-about>.first-circle>.second-circle>.third-circle
+{
+    background-color: #FC9494;
 }

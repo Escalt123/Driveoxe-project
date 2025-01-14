@@ -2,10 +2,6 @@ import "./style.css";
 
 const HovItWorks = () => {
 
-
-
-
-
     return (
       <div className="hovItWorks-container">
         <div className="hovItWorks-cont">
@@ -112,7 +108,6 @@ const HovItWorks = () => {
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
