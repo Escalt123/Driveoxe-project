@@ -8,6 +8,7 @@ import AuroraX5NebulaMinivan from "./img/AuroraX5NebulaMinivan.svg";
 
 
 const CarDetailsAlsoLike = () => {
+
     return ( 
         <div className="CarDetailsAlsoLike-holder">
             <div className="CarDetailsAlsoLike-cont">

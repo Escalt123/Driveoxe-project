@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import  { calculationNumberInPage, renderPageItems, nextButtonPagination, BackButtonPagination } from '../../utils/paginationAll.js';
+import  { calculationNumberInPageTest, calculationNumberInPage, renderPageItems, nextButtonPagination, BackButtonPagination } from '../../utils/paginationAll.js';
 
 import Card from "../card/Card.js";
 import { cardStorage } from '../../../helpers/cardStorage.js';

@@ -1,0 +1,23 @@
+[33mcommit a448176143fa5aea3c4bfd937f32019127deb731[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Сергей Грачев <criesinvain12@mail.ru>
+Date:   Tue Jan 14 05:13:33 2025 +0400
+
+    reworking the howIlWorks block on the about-page
+
+[33mcommit 9ec66ec0cb4c505c27da27330174ad2d9a376153[m
+Author: Сергей Грачев <criesinvain12@mail.ru>
+Date:   Mon Jan 6 20:19:45 2025 +0400
+
+    added functionality for the button PicTheCar on the page About-Page
+
+[33mcommit c0b688eef1167226b8f7baf82db0fa21216b3275[m
+Author: Сергей Грачев <criesinvain12@mail.ru>
+Date:   Mon Jan 6 05:45:09 2025 +0400
+
+    reworked the Contact popup
+
+[33mcommit 0a76371d5eb4083f57ecef979bb2301a394e9738[m
+Author: Сергей Грачев <criesinvain12@mail.ru>
+Date:   Mon Jan 6 05:39:06 2025 +0400
+
+    upload the project

@@ -6,11 +6,9 @@ import "./style.css";
 export function Card({cardId}) {
 
     const cardNumber = parseInt(cardId) - 1
-
-
     return (
         <li className="card-item">
-            <img src={cardStorage[cardNumber].carImage} alt="" />
+            <img src={cardStorage[cardNumber].carImage} alt="card" />
 
             <div className="card-title">
                 {cardStorage[cardNumber].carName}
