@@ -2,7 +2,7 @@
     width: 280px;
     background-color: rgba(34, 34, 34, 0.03);
     border-radius: 10px;
-    min-height: 406px;
+    height: 406px;
     transition: 0.5s ease-in-out;
 }
 
@@ -64,19 +64,24 @@
 
 .card-item:hover {
     background-color: #FD3B3B;
+}
 
+.card-item:hover .card-title, .card-item:hover .price-per-day {
+    color: white;
+}
+
+.card-item:hover .small-text {
+    color: #FFFFFF;
 }
 
 .card-item:hover .rent-btn {
     background-color: white;
     color: #FD3B3B;
-
 }
 
 .rent-btn:hover {
     cursor: pointer;
     scale: 1.1;
-
     border-radius: 0px;
     background-color: white; 
     color: #FD3B3B;

@@ -82,7 +82,6 @@ const HovItWorks = () => {
                     <div className="second-circle">
                       <div className="third-circle"></div>
                     </div>
-
                   </div>
                 </div>
 
@@ -112,29 +111,6 @@ const HovItWorks = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div className="readyToGo-cont">
-        <div className="readyToGo-text">
-          <div className="readyToGo-title">Ready to Go?</div>
-          <div className="readyToGo-desc">
-            Book your car wherever you are and ride with us now!
-          </div>
-
-          <div className="readyToGo-download">
-            <img
-              src={appStore}
-              className="readyToGo-appStore"
-              alt="appStore"
-            />
-            <img
-              src={googlePlay}
-              className="readyToGo-googlePlay"
-              alt="googlePlay"
-            />
           </div>
         </div>
       </div>

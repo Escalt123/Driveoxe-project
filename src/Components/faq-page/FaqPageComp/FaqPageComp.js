@@ -2,15 +2,14 @@ import "./style.css";
 
 import FaqHeader from "../faq-page-header/FaqHeader.js";
 import FaqPageQuestions from "../faq-page-questions/FaqPageQuestions.js";
-import FaqFooter from "../faq-page-footer/FaqFooter.js";
-
+import FooterComp from '../../utils/footer/footerCompAll.js';
 
 const FaqPageComp = () => {
     return ( 
         <div>
             <FaqHeader/>
             <FaqPageQuestions/>
-            <FaqFooter/>
+            <FooterComp/>
         </div>
      );
 }

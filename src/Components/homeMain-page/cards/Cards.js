@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import  { calculationNumberInPageTest, calculationNumberInPage, renderPageItems, nextButtonPagination, BackButtonPagination } from '../../utils/paginationAll.js';
+import  { calculationNumberInPage, renderPageItems, nextButtonPagination, BackButtonPagination } from '../../utils/paginationAll.js';
 
 import Card from "../card/Card.js";
 import { cardStorage } from '../../../helpers/cardStorage.js';
@@ -9,14 +9,11 @@ import ArrowLeft from "./ArrowLeft.svg";
 
 const Cards = () => {
 
-// Переменная состояния для активной страницы
-const [currentPage, setCurrentPage] = useState(0);
+  const [currentPage, setCurrentPage] = useState(0);
 
-// Ключи карточек товаров
-const countKeysCards = Object.keys(cardStorage)
+  const countKeysCards = Object.keys(cardStorage)
 
-// Создание переменной с информацией о общем количестве карточек и максимальном количестве карточек на одной странице
-let countPagesNumber = calculationNumberInPage(countKeysCards, 6);
+  let countPagesNumber = calculationNumberInPage(countKeysCards, 6);
 
   return (
     <div className="cards-Holder">
@@ -28,8 +25,9 @@ let countPagesNumber = calculationNumberInPage(countKeysCards, 6);
         </div>
 
         <div className="card-cont">
+
           <ul className="cards-list">
-            {  renderPageItems(currentPage, countPagesNumber, Card) }
+            { renderPageItems(currentPage, countPagesNumber, Card) }
           </ul>
 
           <div className="page-btn-cont">

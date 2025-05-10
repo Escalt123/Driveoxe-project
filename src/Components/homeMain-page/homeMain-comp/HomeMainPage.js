@@ -4,7 +4,7 @@ import Cards from '../cards/Cards.js';
 import WhyChoose from '../whyChoose/WhyChoose.js';
 import WhatCustomersSay from '../whatCustomersSay/WhatCustomersSay.js';
 import HovItWorks from '../hovItWorks/HovItWorks.js';
-import Footer from '../footer/Footer.js';
+import FooterComp from '../../utils/footer/footerCompAll.js';
 
 const HomeMainPage = () => {
     return ( 
@@ -15,7 +15,7 @@ const HomeMainPage = () => {
             <WhyChoose/>
             <WhatCustomersSay/>
             <HovItWorks/>
-            <Footer/>
+            <FooterComp/>
         </div>
      );
 }

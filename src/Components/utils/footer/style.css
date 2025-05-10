@@ -5,70 +5,14 @@
     margin-bottom: 56px;
 }
 
-/* .footer-cont {
-} */
-
-.readyToGo-cont {
+.footer-cont {
     width: 1340px;
-    height: 399px;
-    background: url("./footerCar.png");
-    background-size: cover;
-
-    display: flex;
-    justify-content: flex-end;
 }
 
-.readyToGo-text {
-    width: 418px;
-    margin-top: 80px;
-    margin-right: 193px;
-}
-
-.readyToGo-title {
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 67.2px;
-    color: rgba(255, 255, 255, 1);
-}
-
-.readyToGo-desc {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28.8px;
-    color: rgba(255, 255, 255, 1);
-    margin-top: 32px;
-}
-
-.readyToGo-download {
-    margin-top: 32px;
-}
-
-.readyToGo-googlePlay {
- margin-left: 16px;
- transition: ease-in-out 0.6s;
-}
-
-.readyToGo-appStore {
-    transition: ease-in-out 0.6s;
-}
-
-.readyToGo-googlePlay:hover, .readyToGo-appStore:hover {
-    cursor: pointer;
-    scale: 1.05;
-}
-
-
-/* -------- */
-
-.links-wrap {
-    margin-top: 38px;
+.links-wrap-test {
     display: flex;
     justify-content: space-between;
 }
-
-/* .subscribe-cont {
-
-} */
 
 .subscribe-title {
     font-size: 56px;
