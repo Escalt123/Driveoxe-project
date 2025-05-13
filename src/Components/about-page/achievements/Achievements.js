@@ -4,19 +4,16 @@ import Customer from "./images/Customer.svg";
 import Innovation from "./images/Innovation.svg";
 import Safety from "./images/Safety.svg";
 import Sustainable from "./images/Sustainable.svg";
-
 import Best from "./images/Best.svg";
 import Business from "./images/Business.svg";
 import Community from "./images/Community.svg";
 import Industry from "./images/Industry.svg";
 
-
-
-
-
 const Achievements = () => {
-    return (
-      <div className="Achievements-holder">
+  return (
+    <div className="Achievements-holder">
+
+      <div>
         <div className="Achievements-cont">
           <div className="Achievements-AllTitle">
             <p className="Achievements-smallTitle">ACHIEVEMENTS</p>
@@ -46,8 +43,6 @@ const Achievements = () => {
               </li>
             </ul>
 
-
-
             <ul className="Achievements-desc-row">
               <li className="Achievements-desc-item">
                 <img src={Best} alt="Best" />
@@ -72,7 +67,15 @@ const Achievements = () => {
           </div>
         </div>
       </div>
-    );
+
+      <div className="FooterAboutPage-black-car">
+        <p>Reserve Your Dream Car Today and Feel Best Experience Travel</p>
+
+        <button>Let’s Drive with Us</button>
+      </div>
+
+    </div>
+  );
 }
- 
+
 export default Achievements;

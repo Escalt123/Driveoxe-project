@@ -3,7 +3,7 @@ import PickTheCar from '../pickTheCar/PickTheCar.js';
 import WhyChooseDrivoxeAboutPage from '../whyChooseDrivoxe/WhyChooseDrivoxe.js';
 import HowItWorksAboutPage from '../howItWorks/HowItWorksAboutPage.js';
 import Achievements from '../achievements/Achievements.js';
-import FooterAboutPage from '../footerAboutPage/FooterAboutPage.js';
+import FooterComp from '../../utils/footer/footerCompAll.js';
 
 const AboutPageComp = () => {
     return ( 
@@ -13,7 +13,7 @@ const AboutPageComp = () => {
             <WhyChooseDrivoxeAboutPage/>
             <HowItWorksAboutPage/>
             <Achievements/>
-            <FooterAboutPage/>
+            <FooterComp/>
         </div>
      );
 }

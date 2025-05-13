@@ -1,6 +1,4 @@
 .Achievements-holder {
-    display: flex;
-    justify-content: center;
     margin-top: 100px;
 }
 
@@ -74,4 +72,51 @@
     font-weight: 700;
     line-height: 19.2px;
     margin-top: 16px;       
+}
+
+.FooterAboutPage-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.FooterAboutPage-cont {
+    margin-bottom: 56px;
+}
+
+.FooterAboutPage-black-car {
+    width: 1340px;
+    height: 399px;
+    background: url("./images/blackCarBG.jpg");
+    border-radius: 30px;
+}
+
+
+.FooterAboutPage-black-car>p {
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    width: 702px;
+    padding-top: 56px;
+    padding-left: 100px;
+}
+
+.FooterAboutPage-black-car>button {
+    cursor: pointer;
+    width: 212px;
+    height: 40px;
+    border: none;
+    border-radius: 32px;
+    background-color: #FD3B3B;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    margin: 46px 100px;
+}
+
+.FooterAboutPage-black-car>button:hover {
+    scale: 1.1;
+    transition: 1s ease-in-out;
+    background-color: #d12f2f;
 }

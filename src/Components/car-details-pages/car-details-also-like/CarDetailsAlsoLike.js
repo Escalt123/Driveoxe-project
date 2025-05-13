@@ -9,7 +9,7 @@ import AuroraX5NebulaMinivan from "./img/AuroraX5NebulaMinivan.svg";
 
 const CarDetailsAlsoLike = () => {
 
-    return ( 
+    return (
         <div className="CarDetailsAlsoLike-holder">
             <div className="CarDetailsAlsoLike-cont">
 
@@ -58,9 +58,21 @@ const CarDetailsAlsoLike = () => {
 
                 </div>
 
+                <div className="CarDetailsFooter-BgCar">
+                    <div className="FooterCarsPage-BackOpac">
+                        <div className="CarDetailsFooter-title">
+                            <p>Book Your Adventure Today and Feel the Power of the Open Road.</p>
+                        </div>
+
+                        <div className="CarDetailsFooter-btn">
+                            <button >Let’s Drive with Us</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default CarDetailsAlsoLike;
