@@ -1,5 +1,3 @@
-import { scrollToTop } from "../../utils/scrollAll";
-
 import "./style.css"
 
 import dot from "./Dot.svg";
@@ -89,11 +87,6 @@ const Header = () => {
 
 
           </ul>
-
-          <div className="scrollTop-cont">
-            <button className="scrollTop-btn" onClick={() => scrollToTop()}></button>
-          </div>
-
         </div>
       </div>
     );

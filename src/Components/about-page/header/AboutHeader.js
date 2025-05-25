@@ -33,10 +33,6 @@ const AboutHeader = () => {
             <img src={UnderLogo5} alt="" />
             <img src={UnderLogo6} alt="" />
         </div>
-
-        <div className="scrollTop-cont">
-            <button className="scrollTop-btn" onClick={() => scrollToTop()}></button>
-        </div>
     </div>
     );
 }
